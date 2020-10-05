@@ -1,0 +1,46 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/mynavigation/dist
+/mynavigation/tmp
+/mynavigation/out-tsc
+# Only exists if Bazel was run
+/mynavigation/bazel-out
+
+# dependencies
+/mynavigation/node_modules
+
+# profiling files
+/mynavigation/chrome-profiler-events.json
+/mynavigation/speed-measure-plugin.json
+
+# IDEs and editors
+/mynavigation/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# misc
+/mynavigation/.sass-cache
+/mynavigation/connect.lock
+/mynavigation/coverage
+/mynavigation/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
